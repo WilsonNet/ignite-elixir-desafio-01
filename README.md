@@ -1,21 +1,23 @@
 # ListLength
 
-**TODO: Add description**
+Challenge for Rocketseat's Ignite Elixir Course. 
 
-## Installation
+Challenge: Use recursion to create a function that calculates the list length.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `list_length` to your list of dependencies in `mix.exs`:
+## Running
 
-```elixir
-def deps do
-  [
-    {:list_length, "~> 0.1.0"}
-  ]
-end
-```
+*You need to have Elixir installed to run this code.*
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/list_length](https://hexdocs.pm/list_length).
+Type `iex -S mix` to enter in interactive mode.
+
+Then use `ListLength.call(list)`
+
+Example: `ListLength.call([1, 2, 3, 4])`
+
+
+## Test
+
+*You need to have Elixir installed to test this code.*
+
+You can test this package by using the command `mix test` in the root directory.
 
